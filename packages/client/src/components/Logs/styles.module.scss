@@ -29,7 +29,7 @@
 
 // inspired by https://github.com/ChromeDevTools/devtools-frontend/blob/master/front_end/console/consoleView.css
 
-.List--empty-hero img {
+..log-wrapper img {
   margin-bottom: 48px;
 }
 
@@ -106,7 +106,7 @@ $color-d5: #9ea0ab;
     position: relative;
   }
 
-  &.-theme-with-dark-background .stack-container {
+  &.-theme-with-dark-background .stack-container { ;
     color: rgb(189, 198, 207);
   }
 
@@ -369,7 +369,7 @@ $color-d5: #9ea0ab;
     color: hsl(39, 100%, 18%);
   }
 
-  &.-theme-with-dark-background .console-warning-level {
+  &.-theme-with-dark-background .console-warning-level { ;
     background-color: rgb(51, 43, 0);
   }
 
@@ -436,7 +436,7 @@ $color-d5: #9ea0ab;
     color: rgb(189, 198, 207);
   }
 
-  .object-value-function-prefix,
+  .object-value-function-prefix, .list-wrapper,
   .object-value-boolean {
     color: rgb(13, 34, 170);
   }
