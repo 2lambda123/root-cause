@@ -223,9 +223,9 @@ $color-d5: #9ea0ab;
         align-items: center;
         margin-left: auto;
         .toggle-switch {
-          display: inline-flex;
+          /* display: inline-flex;
           margin-right: 15px;
-        }
+        */
       }
     }
   }
@@ -574,7 +574,7 @@ $color-d5: #9ea0ab;
       background: hsl(0, 86%, 57%);
       border-radius: 50%;
       color: white;
-      font-family: verdana;
+
       text-align: center;
     }
   }
