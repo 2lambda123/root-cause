@@ -13,7 +13,7 @@
 *     documentation and/or other materials provided with the distribution.
 * 3.  Neither the name of Apple Computer, Inc. ("Apple") nor the names of
 *     its contributors may be used to endorse or promote products derived
-*     from this software without specific prior written permission.
+  *     from this software without specific prior written permission.
 *
 * THIS SOFTWARE IS PROVIDED BY APPLE AND ITS CONTRIBUTORS "AS IS" AND ANY
 * EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
@@ -79,7 +79,7 @@ $color-d5: #9ea0ab;
       0 2px 6px 2px rgba(0, 0, 0, 0.1);
   }
 
-  .console-view {
+  /.console-view {
     background-color: white;
     overflow: hidden;
     -webkit-font-smoothing: auto;
@@ -148,7 +148,7 @@ $color-d5: #9ea0ab;
     flex: 1 1 auto;
   }
 
-  /* .console-toolbar-container > .toolbar { /*
+  /* /* .console-toolbar-container > .toolbar { /*
     background-color: var(--toolbar-bg-color);
     border-bottom: var(--divider-border);
   }
@@ -356,7 +356,7 @@ $color-d5: #9ea0ab;
     border-top-color: transparent;
   }
 
-  .console-error-level {
+  /* .console-error-level {
     background-color: hsl(0, 100%, 97%);
   }
 
@@ -364,7 +364,7 @@ $color-d5: #9ea0ab;
     background-color: hsl(0, 100%, 8%);
   }
 
-  .console-warning-level {
+  /* .console-warning-level {
     background-color: hsl(50, 100%, 95%);
     color: hsl(39, 100%, 18%);
   }
@@ -397,7 +397,7 @@ $color-d5: #9ea0ab;
     color: rgb(255, 221, 158);
   }
 
-  #console-messages .link {
+  /* #console-messages .link {
     cursor: pointer;
     text-decoration: underline;
     color: rgb(33%, 33%, 33%);
@@ -535,7 +535,7 @@ $color-d5: #9ea0ab;
     flex: none;
   }
 
-  .warnsign {
+  /* .warnsign {
     position: absolute;
     left: -17px;
     top: 2px;
@@ -559,7 +559,7 @@ $color-d5: #9ea0ab;
     }
   }
 
-  .errorsign {
+  /* .errorsign {
     position: relative;
 
     &::before {
